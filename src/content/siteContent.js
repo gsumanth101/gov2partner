@@ -113,9 +113,9 @@ export const siteContent = {
   thinkTank: {
     header: {
       eyebrow: 'Think Tank Events',
-      title: 'Private rooms. Public impact.',
+      title: 'Private forums for frontier leaders.',
       copy:
-        'Invitation-only sessions where innovators examine the breakthroughs that will define the next decade.',
+        'Gov2Partner hosts private, invitation‑only Think Tanks for leaders shaping national strategy and frontier innovation—focused on mission‑critical technologies.',
     },
     timeline: [
       {
@@ -190,9 +190,9 @@ export const siteContent = {
       { label: 'Organization', type: 'text' },
       { label: 'Message', type: 'textarea' },
     ],
-    submitLabel: 'Request Access',
+    submitLabel: 'Submit',
     directLabel: 'Direct channel',
-    email: 'gov2partner@gmail.com',
+    email: 'support@gov2partner.com',
     asideCopy: 'Connecting leaders defining the next century.',
     illustration: 'setup',
   },

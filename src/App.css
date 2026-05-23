@@ -242,7 +242,7 @@ section {
   grid-template-columns: minmax(0, 1.05fr) minmax(370px, 0.95fr);
   gap: 18px;
   align-items: stretch;
-  width: min(1220px, calc(100% - 40px));
+  width: min(1220px, calc(100% - 32px));
   min-height: 100svh;
   margin: 0 auto;
   padding: 128px 0 76px;
@@ -644,7 +644,7 @@ h1 span {
 }
 
 .content-section {
-  width: min(1180px, calc(100% - 40px));
+  width: min(1180px, calc(100% - 32px));
   margin: 0 auto;
   padding: clamp(64px, 8vw, 112px) 0;
 }
@@ -659,7 +659,7 @@ h1 span {
 }
 
 .section-header {
-  max-width: 900px;
+  max-width: none;
   margin-bottom: 18px;
   padding: clamp(25px, 4vw, 40px);
 }
@@ -677,7 +677,7 @@ h1 span {
 
 .section-header h2 {
   position: relative;
-  max-width: 780px;
+  max-width: none;
   margin-top: 12px;
   color: var(--ink);
   font-size: clamp(2.1rem, 4.2vw, 4.35rem);
@@ -687,7 +687,7 @@ h1 span {
 
 .section-header p {
   position: relative;
-  max-width: 740px;
+  max-width: none;
   margin-top: 15px;
   color: var(--muted);
   font-size: 1.06rem;
@@ -758,7 +758,7 @@ h1 span {
 }
 
 .wide-block {
-  grid-column: span 2;
+  grid-column: span 1;
 }
 
 .tall-block {
@@ -911,7 +911,7 @@ h1 span {
 }
 
 .frontier-grid {
-  grid-template-columns: repeat(6, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .frontier-card {
@@ -1035,7 +1035,7 @@ h1 span {
   grid-template-columns: auto 1fr auto;
   gap: 18px;
   align-items: center;
-  width: min(1180px, calc(100% - 40px));
+  width: min(1180px, calc(100% - 32px));
   margin: 0 auto 30px;
   padding: 18px;
 }
