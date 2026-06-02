@@ -25,10 +25,10 @@ export default function Navbar({ brand, nav, navCta, activeSection, menuOpen, on
           ))}
         </nav>
 
-        <button className="nav-cta" onClick={() => onNav('contact')}>
+        {/* <button className="nav-cta" onClick={() => onNav('contact')}>
           {navCta}
           <ArrowRight size={16} aria-hidden="true" />
-        </button>
+        </button> */}
 
         <button
           className="menu-button"

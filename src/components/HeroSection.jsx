@@ -34,7 +34,7 @@ export default function HeroSection({ hero, onNav }) {
           {hero.copy}
         </motion.p>
 
-        <motion.div className="hero-actions" variants={fadeUp}>
+        {/* <motion.div className="hero-actions" variants={fadeUp}>
           <button className="primary-button" onClick={() => onNav('contact')}>
             {hero.primaryCta}
             <ArrowRight size={18} aria-hidden="true" />
@@ -42,7 +42,7 @@ export default function HeroSection({ hero, onNav }) {
           <button className="secondary-button" onClick={() => onNav('think-tank')}>
             {hero.secondaryCta}
           </button>
-        </motion.div>
+        </motion.div> */}
 
         <motion.div className="hero-metrics" variants={stagger}>
           {hero.metrics.map((metric) => (
