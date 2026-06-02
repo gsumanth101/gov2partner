@@ -143,54 +143,34 @@ function App() {
         <section id="think-tank" className="content-section">
           <SectionHeader {...siteContent.thinkTank.header} />
           <motion.div
-            className="think-layout"
+            className="block-grid three"
             variants={stagger}
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, amount: 0.2 }}
           >
-            <motion.div className="block-card timeline-block" variants={fadeUp}>
-              {siteContent.thinkTank.timeline.map((item) => (
-                <div className="timeline-row" key={item.title}>
-                  <span aria-hidden="true" />
-                  <div>
-                    <h3>{item.title}</h3>
-                    <p>{item.copy}</p>
-                  </div>
-                </div>
-              ))}
-            </motion.div>
-
-            <motion.div className="stats-grid" variants={stagger}>
-              {siteContent.thinkTank.stats.map((item) => (
-                <motion.div className="block-card stat-card" key={item.label} variants={fadeUp}>
-                  <strong>{item.value}</strong>
-                  <span>{item.label}</span>
-                </motion.div>
-              ))}
-            </motion.div>
+            {siteContent.thinkTank.timeline.map((item) => (
+              <motion.article className="block-card think-card" key={item.title} variants={fadeUp}>
+                <span aria-hidden="true" className="think-dot" />
+                <h3>{item.title}</h3>
+                <p>{item.copy}</p>
+              </motion.article>
+            ))}
           </motion.div>
         </section>
 
         <section id="frontier" className="content-section tinted-section">
           <SectionHeader {...siteContent.frontier.header} />
           <motion.div
-            className="frontier-grid"
+            className="block-grid three"
             variants={stagger}
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, amount: 0.2 }}
           >
-            {siteContent.frontier.cards.map((sector, index) => (
-              <motion.article
-                className="block-card frontier-card"
-                key={sector.title}
-                variants={fadeUp}
-                whileHover={{ y: -7, rotate: index % 2 ? -0.4 : 0.4 }}
-              >
-                <div className="icon-tile">
-                  <Icon name={sector.icon} />
-                </div>
+            {siteContent.frontier.cards.map((sector) => (
+              <motion.article className="block-card think-card" key={sector.title} variants={fadeUp}>
+                <span aria-hidden="true" className="think-dot" />
                 <h3>{sector.title}</h3>
                 <p>{sector.copy}</p>
               </motion.article>
@@ -198,7 +178,7 @@ function App() {
           </motion.div>
         </section>
 
-        <section id="universities" className="content-section partner-section">
+        {/* <section id="universities" className="content-section partner-section">
           <SectionHeader {...siteContent.partners.header} />
           <motion.div
             className="partner-grid"
@@ -211,7 +191,7 @@ function App() {
               <BlockCard key={card.title} {...card} className="partner-card" />
             ))}
           </motion.div>
-        </section>
+        </section> */}
 
         <ContactSection contact={siteContent.contact} />
       </main>

@@ -5,11 +5,11 @@ export const siteContent = {
   },
   navCta: 'Join',
   nav: [
-    { id: 'about', label: 'About' },
+    { id: 'about', label: 'Who We Are' },
     { id: 'work', label: 'What We Do' },
     { id: 'media', label: 'Media' },
     { id: 'think-tank', label: 'Think Tanks' },
-    { id: 'frontier', label: 'Frontier' },
+    { id: 'frontier', label: 'Frontier Thinkers' },
     { id: 'contact', label: 'Contact' },
   ],
   hero: {
@@ -17,18 +17,18 @@ export const siteContent = {
     title: 'Building the future',
     highlight: 'before it exists.',
     copy:
-      'Where frontier innovation meets national impact. Gov2Partner connects leaders across AI, healthcare, defense, cybersecurity, energy, space, and national security.',
-    primaryCta: 'Join the Consortium',
-    secondaryCta: 'Explore Think Tanks',
+      'Gov2Partner unites the leaders defining the next era of AI, healthcare, energy, defense, cybersecurity, space technologies, and national security. It’s a national innovation common where scientists, founders, investors, and government leaders meet to exchange ideas, share breakthroughs, and accelerate the technologies that matter.',
+    primaryCta: '',
+    secondaryCta: '',
     imageAlt: 'unDraw setup wizard illustration representing coordinated technology building',
     panels: [
       { label: 'Mission Layer', value: 'AI + Policy' },
       { label: 'Innovation Signal', value: 'National Scale' },
     ],
     metrics: [
-      { value: '07', label: 'Frontier domains' },
-      { value: 'All', label: 'Cross-sector rooms' },
-      { value: '01', label: 'National innovation common' },
+      // { value: '07', label: 'Frontier domains' },
+      // { value: 'All', label: 'Cross-sector rooms' },
+      // { value: '01', label: 'National innovation common' },
     ],
   },
   about: {
@@ -36,23 +36,23 @@ export const siteContent = {
       eyebrow: 'Who We Are',
       title: 'A national innovation common for serious builders.',
       copy:
-        'Scientists, founders, investors, and government leaders meet here to exchange ideas, share breakthroughs, and accelerate technologies that matter.',
+        'Gov2Partner is a consortium of government, industry, and research leaders driving safe, secure, and scalable innovation. Our mission is simple: connect the people who build the future.',
     },
     cards: [
       {
         icon: 'users',
-        title: 'Builder Network',
-        copy: 'A consortium for builders, researchers, and policymakers.',
+        title: 'Accelerate Breakthroughs',
+        copy: 'We bring top technology executives together to surface frontier ideas, stress test concepts, and fast track the breakthroughs that will shape the next century.',
       },
       {
         icon: 'handshake',
-        title: 'Mission Bridge',
-        copy: 'Connecting government, industry, and frontier innovation.',
+        title: 'Shape National Strategy',
+        copy: 'We convene forward thinking policymakers to define priorities, align missions, and chart long horizon strategies for emerging technologies. ',
       },
       {
         icon: 'shieldCheck',
-        title: 'Secure Scale',
-        copy: 'Built for people solving mission-level challenges.',
+        title: 'Build Strategic Coalitions',
+        copy: 'We unite breakthrough researchers, innovators, and mission leaders to form coalitions capable of tackling challenges no single sector can solve alone.',
       },
     ],
   },
@@ -65,19 +65,19 @@ export const siteContent = {
     cards: [
       {
         icon: 'database',
-        meta: 'Tomorrow',
+        meta: '',
         title: 'Insights',
         copy: 'Sharp articles, interviews, and analysis from the voices shaping what comes next.',
       },
       {
         icon: 'globe',
-        meta: 'Network',
+        meta: '',
         title: 'People',
         copy: 'Networks built for mission-scale innovation across public, private, and research ecosystems.',
       },
       {
         icon: 'cpu',
-        meta: 'Scale',
+        meta: '',
         title: 'Resources',
         copy: 'Practical guidance for secure, scalable growth across frontier technology programs.',
       },
@@ -85,9 +85,9 @@ export const siteContent = {
   },
   media: {
     header: {
-      eyebrow: 'Leadership & Media',
+      eyebrow: 'Media',
       title: 'Signal from the people shaping tomorrow.',
-      copy: 'Interview collections, video briefings, and leadership highlights built for fast executive scanning.',
+      copy: '',
     },
     cards: [
       {
@@ -132,26 +132,23 @@ export const siteContent = {
       },
     ],
     stats: [
-      { value: '07', label: 'Frontier domains' },
-      { value: '01', label: 'High-trust forum' },
-      { value: 'Soon', label: 'Dates announced' },
-      { value: 'Invite', label: 'Executive access' },
+      // { value: '07', label: 'Frontier domains' },
+      // { value: '01', label: 'High-trust forum' },
+      // { value: 'Soon', label: 'Dates announced' },
+      // { value: 'Invite', label: 'Executive access' },
     ],
   },
   frontier: {
     header: {
-      eyebrow: 'Frontier Innovation',
+      eyebrow: 'Frontier Thinkers',
       title: 'A home for frontier thinkers.',
       copy:
-        'Where AI meets national security, energy meets autonomy, biology meets computation, and space meets industry.',
+        'Gov2Partner is building the connective tissue of the next technological era—where AI meets national security, energy meets autonomy, biology meets computation, and space meets industry. Public‑sector organizations, companies, universities, and professional societies are invited to participate.The people who join this consortium aren’t seeking services. They’re seeking impact, clarity, and collaboration with peers who build at the highest level.',
     },
     cards: [
-      { icon: 'brain', title: 'AI', copy: 'Models, autonomy, applied intelligence.' },
-      { icon: 'orbit', title: 'Space', copy: 'Launch, orbital systems, space industry.' },
-      { icon: 'shield', title: 'Defense', copy: 'Mission systems, readiness, resilience.' },
-      { icon: 'zap', title: 'Energy', copy: 'Grid, fusion, storage, clean power.' },
-      { icon: 'flask', title: 'Biology', copy: 'Biosecurity, health systems, computation.' },
-      { icon: 'fingerprint', title: 'Cybersecurity', copy: 'Trust, hardening, secure growth.' },
+      // { icon: 'brain', title: 'AI', copy: 'Models, autonomy, applied intelligence.' },
+      // { icon: 'orbit', title: 'Space', copy: 'Launch, orbital systems, space industry.' },
+      // { icon: 'shield', title: 'Defense', copy: 'Mission systems, readiness, resilience.' },
     ],
   },
   partners: {
@@ -180,21 +177,32 @@ export const siteContent = {
   contact: {
     header: {
       eyebrow: 'Contact',
-      title: 'For people seeking impact, clarity, and collaboration.',
+      title: '',
       copy:
-        'Gov2Partner welcomes individuals, organizations, and institutions ready to shape the next wave of frontier innovation.',
+        'Gov2Partner welcomes individuals, organizations, and institutions ready to help shape the next wave of frontier innovation.',
+      copy1:'',
     },
     fields: [
       { label: 'Name', type: 'text' },
       { label: 'Email', type: 'email' },
-      { label: 'Organization', type: 'text' },
+      { label: 'Phone', type: 'tel' },
       { label: 'Message', type: 'textarea' },
     ],
     submitLabel: 'Submit',
     directLabel: 'Direct channel',
-    email: 'support@gov2partner.com',
+    email: 'gov2partner@gmail.com',
     asideCopy: 'Connecting leaders defining the next century.',
     illustration: 'setup',
+    sections: [
+      {
+        title: 'For Universities',
+        copy: 'We partner with universities and research groups ready to bring their technologies into real‑world use, commercialization pathways, and national‑level conversations through our Think Tank program.',
+      },
+      {
+        title: 'For Event Organizers',
+        copy: 'Our consortium provides speakers for global, free technology‑awareness programs for students, educators, and industry leaders—focused on the emerging technologies shaping the next decade.',
+      },
+    ],
   },
   footerTagline: 'Building the future before it exists.',
 }
