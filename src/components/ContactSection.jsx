@@ -50,7 +50,7 @@ export default function ContactSection({ contact }) {
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify(formData),
+        body: JSON.stringify({ ...formData, siteName: 'gov2partner.com' }),
       })
 
       if (!response.ok) {
