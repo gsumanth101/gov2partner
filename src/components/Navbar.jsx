@@ -1,6 +1,5 @@
 import { motion } from 'framer-motion'
 import { ArrowRight, Menu, X } from 'lucide-react'
-import Icon from './Icon'
 
 export default function Navbar({ brand, nav, navCta, activeSection, menuOpen, onNav, onToggleMenu }) {
   return (
@@ -8,7 +7,7 @@ export default function Navbar({ brand, nav, navCta, activeSection, menuOpen, on
       <header className={`navbar ${menuOpen ? 'is-scrolled' : ''}`}>
         <button className="brand" onClick={() => onNav('hero')} aria-label="Go to top">
           <span className="brand-mark">
-            <Icon name={brand.icon} size={18} />
+            <img src="/image.png" alt={`${brand.name} logo`} className="brand-logo" />
           </span>
           <span>{brand.name}</span>
         </button>
