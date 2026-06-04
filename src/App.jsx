@@ -199,7 +199,7 @@ function App() {
       <footer className="footer block-card">
         <button className="brand" onClick={() => handleNav('hero')}>
           <span className="brand-mark">
-            <Icon name="atom" size={18} />
+            <img src="/image.png" alt={`${siteContent.brand.name} logo`} className="brand-logo" />
           </span>
           <span>{siteContent.brand.name}</span>
         </button>
